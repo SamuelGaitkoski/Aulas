@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">
+        
+        <meta name="author"     content="Samuel Gaitkoski de Almeida">
+        <meta name="generator"  content="Visual Studio Code">
+        <meta name="Keywords"   content="HTML5, Curso HTML, Curso Front End, CSS, Javascript">
+        <meta name="descriprion"  content="Pagina do curso de HTML5">
+        <meta name="application-name"  content="iMedia Brasil">
+        
+        <meta http-equiv="refresh"  content="4">
+
+        <style>
+            body {
+                background: #f89;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+
+        <script>
+            function sorteioNumero() {
+                resultado.innerHTML = Math.random() * 50;
+            }
+
+            window.onload = sorteioNumero;
+        </script>
+        <!-- onload é para quando carregar a pagina-->
+
+    </head>
+    <body>
+        <p id="resultado"></p>
+    </body>
+    <!-- i resultado dentro do id serve para mostrar o valor de resultado-->
+</html>
